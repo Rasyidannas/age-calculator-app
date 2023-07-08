@@ -1,0 +1,23 @@
+.button{
+    padding: .7rem;
+    background-color: var(--purple);
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--offBlack);
+}
+
+.button img{
+    height: .8rem;
+    width: .9rem;
+}
+
+@media (max-width: 640px) {
+    .button img {
+        height: 1.1rem;
+        width: 1.2rem;
+    }
+}

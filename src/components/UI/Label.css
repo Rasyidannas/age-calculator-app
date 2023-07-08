@@ -1,0 +1,6 @@
+.label{
+    font-size: .5rem;
+    color: var(--smokeyGrey);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}

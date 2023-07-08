@@ -1,0 +1,14 @@
+.result__warp{
+    margin-top: 2rem;
+}
+
+.result__title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.result__title span {
+    letter-spacing: .5rem;
+    color: var(--purple);
+}

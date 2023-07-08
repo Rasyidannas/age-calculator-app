@@ -1,0 +1,46 @@
+.text-field{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-text{
+    width: 100%;
+    padding: .5rem;
+    border: solid var(--offWhite);
+    border-radius: .25rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.input-text:focus{
+    outline: none;
+    border: solid var(--purple) !important;
+}
+
+.input-text::placeholder{
+    font-weight: 700;
+}
+
+.hint{
+    margin-top: .15rem;
+    font-size: .35rem;
+    font-style: italic;
+    color: var(--smokeyGrey);
+}
+
+.text-field--err .label{
+    color: var(--lightRed);
+}
+
+.text-field--err .input-text{
+    border: solid var(--lightRed);
+}
+
+.text-field--err .err-message{
+    margin-top: .15rem;
+    font-size: .35rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--lightRed);
+}

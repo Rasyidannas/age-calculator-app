@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.form__button {
+  align-self: center;
+
+  position: relative;
+  right: 0;
+  bottom: -2.8rem;
+}
+
+@media (max-width: 640px) {
+  .form {
+    flex-wrap: wrap;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form__button {
+    position: absolute;
+    transform: translateX(50%);
+    right: 50%;
+    top: 7rem;
+    bottom: unset;
+  }
+}
